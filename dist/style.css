@@ -1,0 +1,54 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+
+.container {
+  /* background-color: red; */
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
+.title {
+  width: 350px;
+  display: block;
+}
+
+.list {
+  text-align: center;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.social-media {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media > a {
+}
+
+.social-media > a > img {
+  width: 20px;
+  margin: 0 20px;
+}
